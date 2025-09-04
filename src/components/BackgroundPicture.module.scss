@@ -1,5 +1,8 @@
 .picture {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 0;
   width: 100vw;
   height: 100vh;
@@ -8,4 +11,24 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  .description_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 334px;
+    .description {
+      display: flex;
+      flex-direction: column;
+
+      text-align: center;
+      color: rgba(255, 255, 255, 1);
+      h1 {
+        margin: 0;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
 }
