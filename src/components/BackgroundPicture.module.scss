@@ -1,0 +1,11 @@
+.picture {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: radial-gradient(rgba(42, 108, 234, 0.8)),
+    url(../assets/lunch.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
